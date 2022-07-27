@@ -60,6 +60,7 @@ Users should be able to:
 - Better debugging
 - Different problem solving techniques
 - Practice improves execution speed
+- One can increase patience with programming and solving new challenges each day
 
 ### Continued development
 
