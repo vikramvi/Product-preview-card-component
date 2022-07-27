@@ -64,6 +64,29 @@ p {
 /* --------------------------- specific styling --------------------------- */
 /* ----------- ----------- ----------- ----------- ----------- ------------ */
 
+/* ----------- ----------- ----------- mobile first approach ----------- ----------- ----------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "image-container"
+    "product-details-container";
+
+  min-width: 37.5rem;
+
+  padding: 4rem 2rem;
+
+  background: var(--clr-primary-cream);
+  height: 100vh;
+}
+
+/* remove me */
+.image-container,
+.product-details-container {
+  border: 1px solid red;
+}
+
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
 
 /* Component 1 grid areas */
