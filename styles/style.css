@@ -1,0 +1,65 @@
+/* Write GOOD comments so that next developer ... */
+/* ( who happens to be a killer psycopath & knows where you stay ). */
+/* He's going to maintain this code; need NOT have to get back to you */
+
+/* ----------- ----------- ----------- ----------- ----------- ----------- */
+/* --------------------------- generic styling --------------------------- */
+/* ----------- ----------- ----------- ----------- ----------- ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  /* color related */
+
+  --clr-primary-dark-cyan: hsl(158, 36%, 37%);
+  --clr-primary-cream: hsl(30, 38%, 92%);
+
+  --clr-neutral-very-dark-blue: hsl(212, 21%, 14%);
+  --clr-neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  /* fonts related */
+
+  --ff-primary: "Fraunces", serif;
+  --ff-secondary: "Montserrat", sans-serif;
+
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  /* 16px */
+  font-size: 1.6em;
+  font-family: var(--ff-primary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* ----------- ----------- ----------- ----------- ----------- ------------ */
+/* --------------------------- specific styling --------------------------- */
+/* ----------- ----------- ----------- ----------- ----------- ------------ */
