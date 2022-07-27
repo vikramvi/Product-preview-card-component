@@ -166,6 +166,12 @@ p {
   border-radius: 0.75rem;
 
   position: relative;
+
+  cursor: pointer;
+}
+
+.product-details-container__add-to-cart:hover {
+  background: var(--clr-neutral-very-dark-blue);
 }
 
 .product-details-container__add-to-cart > img {
