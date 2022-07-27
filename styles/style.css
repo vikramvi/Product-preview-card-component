@@ -83,6 +83,15 @@ p {
 
 /* style 1st component - mobile */
 
+.image-container__product-image {
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 /* style 2nd component - mobile */
 
 .product-details-container {
