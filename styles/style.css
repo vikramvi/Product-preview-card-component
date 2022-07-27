@@ -49,6 +49,13 @@ body {
   /* 16px */
   font-size: 1.6em;
   font-family: var(--ff-primary);
+
+  background: var(--clr-primary-cream);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -76,9 +83,6 @@ p {
   min-width: 37.5rem;
 
   padding: 4rem 2rem;
-
-  background: var(--clr-primary-cream);
-  height: 100vh;
 }
 
 /* style 1st component - mobile */
