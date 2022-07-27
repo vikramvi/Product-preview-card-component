@@ -63,3 +63,45 @@ p {
 /* ----------- ----------- ----------- ----------- ----------- ------------ */
 /* --------------------------- specific styling --------------------------- */
 /* ----------- ----------- ----------- ----------- ----------- ------------ */
+
+/* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
+
+/* Component 1 grid areas */
+
+.image-container {
+  grid-area: image-container;
+}
+
+.image-container__product-image {
+  grid-area: image-container__product-image;
+}
+
+/* Component 2 grid areas */
+
+.product-details-container {
+  grid-area: product-details-container;
+}
+
+.product-details-container__product-type {
+  grid-area: product-details-container__product-type;
+}
+
+.product-details-container__product-name {
+  grid-area: product-details-container__product-name;
+}
+
+.product-details-container__product-info {
+  grid-area: product-details-container__product-info;
+}
+
+.product-details-container__product-discounted-price {
+  grid-area: product-details-container__product-discounted-price;
+}
+
+.product-details-container__product-original-price {
+  grid-area: product-details-container__product-original-price;
+}
+
+.product-details-container__add-to-cart {
+  grid-area: product-details-container__add-to-cart;
+}
