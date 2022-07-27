@@ -172,6 +172,61 @@ p {
   left: 27%;
 }
 
+/* ----------- ----------- ----------- desktop second approach ----------- ----------- ----------- */
+
+@media screen and (min-width: 48rem) {
+  .grid-container {
+    grid-template-columns: 26rem 26rem;
+    grid-template-rows: 40rem;
+    grid-template-areas: "image-container product-details-container";
+
+    max-width: 144rem;
+
+    justify-content: center;
+    align-content: center;
+  }
+
+  /* style 1st component - desktop */
+
+  .image-container__product-image {
+    content: url("../images/image-product-desktop.jpg");
+
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.8rem;
+  }
+
+  /* style 2nd component - desktop */
+
+  .product-details-container {
+    padding: 2rem 3rem;
+  }
+
+  .product-details-container {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.8rem;
+  }
+
+  .product-details-container__product-type {
+    font-size: 1rem;
+  }
+
+  .product-details-container__product-info {
+    font-size: 1.2rem;
+  }
+
+  .product-details-container__add-to-cart {
+    font-size: 1rem;
+
+    padding: 0.8rem;
+  }
+
+  .product-details-container__add-to-cart > img {
+    width: 6%;
+    left: 24%;
+    height: 33%;
+  }
+}
+
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
 
 /* Component 1 grid areas */
