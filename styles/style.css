@@ -135,6 +135,8 @@ p {
 }
 
 .product-details-container__product-discounted-price {
+  align-self: center;
+
   font-size: 3rem;
 
   color: var(--clr-primary-dark-cyan);
@@ -216,14 +218,16 @@ p {
 
   .product-details-container__add-to-cart {
     font-size: 1rem;
+    font-weight: var(--fw-700);
 
     padding: 0.8rem;
   }
 
   .product-details-container__add-to-cart > img {
     width: 6%;
+
     left: 24%;
-    height: 33%;
+    top: 34%;
   }
 }
 
